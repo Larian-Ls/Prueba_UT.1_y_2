@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre Videojuegos</title>
+    <style> 
+        table, tr, th, td {
+        border: 1px solid black;
+        } /* Formato de las tablas */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Videojuegos</h1>
+        <nav> <!--Enlaces internos-->
+            <a href="#introduccion">Introducción</a>
+            <a href="#clasificacion">Clasificación</a>
+            <a href="#comparativa">Comparativa</a>
+            <a href="#cuidado-de-la-salud">Cuidado de la salud</a>
+            <a href="#canales-para-mejorar-tu-juego">Canales para mejorar tu juego</a>
+            <a href="#contacto-y-suscripcion">Contacto y suscripción</a>
+            <a href="#localizacion">Localización</a>
+        </nav>
+    </header>
+    <main>
+        <section id="introduccion"> <!--Introducción-->
+            <h2>Introducción</h2>
+            <p>Los videojuegos han evolucionado enormemente desde su creación en la década de 1970. Desde simples gráficos en blanco y negro hasta experiencias inmersivas en 3D, los videojuegos han pasado a ser una forma importante de entretenimiento.</p>
+            <h3>Videojuego Antiguo</h3>
+            <img src="./images/videojuegoAntiguo.png" alt="Videojuego Antiguo">
+            <h3>Videojuego Nuevo</h3>
+            <img src="./images/videojuegoNuevo.jpg" alt="Videojuego Nuevo">
+        </section>
+        <section id="clasificacion">  <!--Clasificación-->
+            <h2>Clasificación</h2>
+            <table>
+                <tr>
+                    <th>Posición</th>
+                    <th>Videojuego</th>                    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Tetris</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Minecraft</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Grand Theft Auto V</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>The legend of Zelda: Breath of the Wild</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Wii Sports</td>
+                </tr>
+            </table>
+        </section>
+        <section id="comparativa"> <!--Comparativa-->
+            <h2>Comparativa</h2>
+            <table>
+                <tr>
+                    <th rowspan="2">Género</th>
+                    <th colspan="3">Videojuegos Representativos</th>                    
+                </tr>
+                <tr>
+                    <th>Videojuego 1</th>
+                    <th>Videojuego 2</th>
+                    <th>Videojuego 3</th>
+                </tr>
+                <tr>
+                    <td>Aventura</td>
+                    <td>The Legend of Zelda</td>
+                    <td>Uncharted</td>
+                    <td>Tomb Raider</td>
+                </tr>
+                <tr>
+                    <td>Acción</td>
+                    <td colspan="3">Call of Duty Series</td>
+                </tr>
+                <tr>
+                    <td>Estrategia</td>
+                    <td>Civilization VI</td>
+                    <td>StarCraft II</td>
+                    <td>XCOM 2</td>
+                </tr>
+            </table>
+        </section>
+        <section id="cuidado-de-la-salud"> <!--Cuidado de la salud-->
+            <h2>Cuidado de la salud</h2>
+            <ul>
+                <li>Hábitos Saludables</li>
+                <ul>
+                    <li>Tomar descansos regulares.</li>
+                    <li>Mantener una buena postura.</li>
+                    <li>Bebiendo suficiente agua.</li>
+                </ul>
+                <li>No Saludables</li>
+                <ul>
+                    <li>Pasar horas sin moverse.</li>
+                    <li>No dormir lo suficiente.</li>
+                    <li>No comer adecuadamente.</li>
+                </ul>
+            </ul>
+        </section>
+        <section id="canales-para-mejorar-tu-juego"> <!--Canales para mejorar tu juego-->
+            <h2>Canales para mejorar tu juego</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nTwcUZeh4rQ?si=DtxTY1UvwT0p2Mpa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe height="315" width="560" src="https://linkatomic.com/mejores-blogs-de-videojuegos/" title="Los 11 mejores blogs de videojuegos y consolas en español"></iframe>
+        </section>
+        <section id="contacto-y-suscripcion"> <!--Contacto y suscripción-->
+            <h2>Contacto y Suscripción</h2>
+            <form method="get">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text">
+                <br><br>
+                <label for="email">Email: </label><br>
+                <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+                <br><br>
+                <label for="comentarios">Comentarios:</label>
+                <br>
+                <textarea id="comentarios" name="comentarios"></textarea><br>
+                <button type="submit">Suscribirse</button>         
+            </form>
+        </section>
+        <section id="localizacion"> <!--Localización-->
+            <h2>Localización</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4283.353523873898!2d-13.506787699999997!3d29.142204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc48a057186e0aaf%3A0xc45fed53018ff0fd!2sIES%20de%20Har%C3%ADa!5e1!3m2!1ses!2ses!4v1729757502815!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>Fecha: 23/10/2024 <br> Email del alumno: <a href="mailto:larian.dam@gmail.com">larian.dam@gmail.com</a> <br> Larian Luis Scerbet</p>
+    </footer>
+</body>
+</html>
